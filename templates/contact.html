@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body {
+                background-color: #f8f9fa;
+                font-family: Arial, sans-serif;
+                padding-top: 30px; /* Adjust this value if your navbar height is different */
+            }
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+            }
+            .left-section {
+                max-width: 50%;
+            }
+            .right-section {
+                max-width: 40%;
+                text-align: left;
+            }
+            .right-section p {
+                margin-bottom: 1.5rem;
+            }
+            .btn-block {
+                display: block;
+                width: 100%;
+                margin-bottom: 1rem;
+                padding: 10px;
+                background-color: #000;
+                color: #fff;
+                text-align: center;
+                border-radius: 4px;
+                text-decoration: none;
+            }
+            .social-media {
+                text-align: center;
+                margin-top: 2rem;
+            }
+            .social-media img {
+                width: 24px;
+                margin: 0 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--nav bar-->
+        <nav class="navbar shadow-sm fixed-top bg-white">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/static/logo.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                SNEH FOUNDATION
+            </a>
+            </div>
+        </nav>
+        <div style="height:20px"></div>
+        <!--contact page-->
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <h1 class="text-center">Contact Us</h1>
+                    <img src="static/contacts.jpg" style="width: 100%; height: auto; border-radius: 4px;">
+                </div>
+                <div class="col-12 col-md-6">
+                    <p>At Sneh Foundation, we are driven by our passion for making the world a better place for current and future generations.
+                        Join us in our mission to create a sustainable, greener, and more humane world.</p>
+                    <a href="#" class="btn-block">Podcast</a>
+                    <a href="#" class="btn-block">Pledges</a>
+                    <a href="#" class="btn-block">Articles</a>
+                    <a href="#" class="btn-block">Sign</a>
+                    <a href="#" class="btn-block">Petitions</a>
+                    <a href="#" class="btn-block">Donate</a>
+                    <div class="social-media">
+                        <p>FOLLOW US ON SOCIAL MEDIA</p>
+                        <a href="#"><img src="static/Insta.png" alt="Instagram"></a>
+                        <a href="#"><img src="static/linkedin.png" alt="LinkedIn"></a>
+                        <a href="#"><img src="static/twitter.png" alt="Twitter"></a>
+                        <a href="#"><img src="static/email.png" alt="Email"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        {% include 'footer.html' %}
+    </body>
+</html>

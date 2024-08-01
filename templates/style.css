@@ -1,0 +1,67 @@
+h1{
+    font-family: verdana, arial;
+
+}
+p{
+    font-family: "Inter","courier new";
+}
+b{
+   font-weight: bold;
+   font-size: 1.5em;
+}
+body{
+    background: rgb(208, 202, 195);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background: black ;
+    color: wheat;
+    padding: 20px;
+    
+}
+section{
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+div{
+    background: rgb(213, 194, 16);
+    display: flex;
+    margin: auto;
+    width: 100px;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+footer{
+    background: black ;
+    color: gray;
+    padding: 10px 20px;
+}
+button{
+    background: gray;
+    border: none;
+    color: white;
+    padding: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.button{border-radius: 12px;}
+
